@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "367933769949",
+    "project_id": "ssdfghjhjkhjhgfd",
+    "storage_bucket": "ssdfghjhjkhjhgfd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367933769949:android:8d9a226687983e73c1b334",
+        "android_client_info": {
+          "package_name": "com.candyworld.sugarlady"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb2KVEt-3Ep7y2fn4NaRMJ_r-fXTyON3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

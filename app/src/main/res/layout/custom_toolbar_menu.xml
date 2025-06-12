@@ -2,9 +2,22 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/toolbar_view"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@drawable/toolbar_bg">
+    android:layout_height="wrap_content">
 
+  <ImageView
+      android:id="@+id/sound_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/sound_on"
+      android:layout_gravity="end"
+      android:layout_margin="15dp"/>
+  <ImageButton
+      android:id="@+id/exit_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="start"
+      android:background="@drawable/exit"
+      android:layout_margin="15dp"/>
 
   <LinearLayout
       android:layout_width="wrap_content"
@@ -15,23 +28,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/fontgame"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:textSize="30dp"
-        android:text="@string/catch_all"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/fontgame"
-        android:layout_gravity="center"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:textSize="35dp"
-        android:gravity="center"
-        android:text="@string/the_fruits"/>
+     android:background="@drawable/rule_logo"/>
+
   </LinearLayout>
 
 </androidx.appcompat.widget.Toolbar>

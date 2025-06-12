@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
+    android:backgroundTintMode="src_atop"
+    android:backgroundTint="#83000000"
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".GameOverActivity">
@@ -15,14 +17,10 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_marginBottom="100dp">
-        <TextView
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:fontFamily="@font/fontgame"
-            android:textSize="35dp"
-            android:textStyle="bold"
-            android:text="GAME OVER"/>
+            android:background="@drawable/game_over_logo"/>
         <TextView
             android:id="@+id/score_view"
             android:layout_width="wrap_content"
@@ -38,11 +36,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:background="@drawable/restart_button"/>
+        android:background="@drawable/play"/>
     <ImageButton
         android:id="@+id/menu_button_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:background="@drawable/menu_button"/>
+        android:background="@drawable/menu"/>
 </LinearLayout>

@@ -9,35 +9,24 @@
     tools:context=".MainMenuActivity">
 
     <include android:id="@+id/included_toolbar"
-        layout="@layout/custom_toolbar_menu"/>
+        layout="@layout/custom_toolbar_menu"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
    <FrameLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent">
-       <ImageView
-           android:layout_width="255dp"
-           android:layout_height="525dp"
-           android:layout_gravity="bottom"
-           android:background="@drawable/character_menu_view"/>
+
        <ImageButton
            android:id="@+id/start_game"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:background="@drawable/start_button"
+           android:background="@drawable/start"
            android:layout_gravity="center"
            android:layout_marginTop="200dp"/>
-       <FrameLayout
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:background="@drawable/sound_bg"
-           android:layout_margin="10dp"
-           android:layout_gravity="right">
-        <ImageButton
-            android:id="@+id/sound_button"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"/>
-       </FrameLayout>
+
+
    </FrameLayout>
 
 </LinearLayout>

@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Pin up - Fruit Clicker"
+rootProject.name = "Sugar Lady"
 include ':app'
